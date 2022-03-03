@@ -15,7 +15,13 @@
 // Object : [corps]
 
 function afficheMessage(estUrgent, titre, corps) {
-
+let result;
+    if (estUrgent > 2) {
+        result = 'true';
+    } else {
+        result = 'false';
+    }
+return result;
 }
 
 // NE PAS MODIFIER APRES CETTE LIGNE

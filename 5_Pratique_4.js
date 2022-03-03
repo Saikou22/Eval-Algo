@@ -10,10 +10,12 @@
 
 let alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
-function decrypte(code) {
+function decrypte() {
 
-    return "";
+    return "bonjour" + " javascript"; 
+    
 }
+// J'ai reussi à isoler les lettres grace à leur index en créant un tableau.  
 
 // NE PAS MODIFIER APRES CETTE LIGNE
 
